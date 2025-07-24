@@ -6,6 +6,14 @@
   font-weight: bold;
   font-style: normal;
 }
+.noto-serif-text {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 /* Navbar design */
 .header{
@@ -37,3 +45,29 @@ ul li a{
     color: #8987A1;
 }
 /* banner design */
+.banner{
+    margin: 100px 150px;
+}
+.banner-box{
+    width: 100%;
+}
+.banner-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-item{
+    position: bottom;
+}
+
+.banner-title{
+    color: #000000;
+    font-size: 4rem;
+}
+.span{
+    color: #E95A08;
+}
+.banner-info{
+    color: rgba(0,0,0,.4);
+    font-size: 1.6rem;
+}
