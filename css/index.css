@@ -82,7 +82,7 @@ ul li a{
 }
 /* plant section design */
 .plants{
-    margin: 0 150px;
+    margin: 210px 150px;
     text-align: center;
     align-items: center;
 }
@@ -110,3 +110,47 @@ ul li a{
     font-size: 22px;
     color: #111111;
 }
+/* Lover points design */
+.plants-lover {
+  margin: 0 150px;
+}
+.lover-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+.lover-item {
+  flex: 1;
+  min-width: 300px;
+}
+.lover-item img {
+  width: 100%;
+  height: auto;
+}
+.love-title {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #000000;
+}
+
+.lover-info ul li {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+  list-style-type: disc;
+  margin-left: 1em;
+  margin-bottom: 8px;
+}
+.trust {
+  position: absolute;
+  top: -110px;
+  left: 35%;
+  width: 286px;
+  height: 286px;
+}
+.trust img {
+  width: 100%;
+  height: auto;
+}
+
