@@ -14,6 +14,15 @@
   font-variation-settings:
     "wdth" 100;
 }
+.btn{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    font-size: 16px;
+    border: none;
+    padding: 26px 50px;
+    width: 100%;
+}
+
 
 /* Navbar design */
 .header{
@@ -70,4 +79,27 @@ ul li a{
 .banner-info{
     color: rgba(0,0,0,.4);
     font-size: 1.6rem;
+}
+/* plant section design */
+.plants{
+    margin: 0 150px;
+}
+.plants-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px 20px
+}
+.plant-item{
+    width: 100%;
+    text-align: center;
+}
+.item-title{
+    color: #111111;
+    font-weight: 500;
+    font-size: 22px;
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+    color: #111111;
 }
