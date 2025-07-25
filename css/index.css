@@ -154,3 +154,37 @@ ul li a{
   height: auto;
 }
 
+/* Join Section design */
+.join{
+    display: flex;
+    background-image: linear-gradient(rgba(7, 51, 79, 0.4), rgba(7, 51, 79, 0.4))
+, url(/images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+.join-detail{
+    text-align: center;
+}
+.join-title{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.sub-btn{
+    width: auto;
+    font-weight: 600;
+    font-size: 16px;
+}
+.search-bar{
+    width: 50vh;
+    border: none;
+    color: rgba(0,0,0,.5);
+    padding: 26px 50px;
+    font-size: 16px;
+    
+}
