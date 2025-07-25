@@ -29,8 +29,6 @@
     padding: 26px 50px;
     width: 100%;
 }
-
-
 /* Navbar design */
 .header{
     margin: 30px 140px;
@@ -63,9 +61,6 @@ ul li a{
 /* banner design */
 .banner{
     margin: 100px 150px;
-}
-.banner-box{
-    width: 100%;
 }
 .banner-box{
     display: flex;
@@ -103,11 +98,11 @@ ul li a{
 .item-title{
     color: #111111;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.4rem;
 }
 .price{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.4rem;
     color: #111111;
 }
 /* Lover points design */
@@ -187,4 +182,155 @@ ul li a{
     padding: 26px 50px;
     font-size: 16px;
     
+}
+/* footer design */
+.foot-container{
+    padding: 50px 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: start;
+    gap: 110px;
+}
+.foot-info{
+    margin-top: 20px;
+    color: rgba(0,0,0,.5);
+    font-size: 22px;
+}
+.foot-item ul li{
+    list-style-type: none;
+}
+.foot-item ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #6B7280;
+    line-height: 2.7;
+}
+.foot-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 393px){
+    .btn{
+        color: #FFFFFF;
+        background-color: #E95A08;
+        font-size: 16px;
+        border: none;
+        padding: 25px 30px;
+        width: 100%;
+    }
+
+    .header{
+        margin: 28px 16px;
+    }
+    .home,.shop,.about{
+        display: none;
+    }
+
+    /* banner */
+    .banner-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: start;
+    }
+    .banner-image{
+        width: 380px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    
+
+    /* plants */
+    .plants{
+        margin:14px;
+        text-align: center;
+        align-items: center;
+    }
+    .plants-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 28px 20px
+    }
+    .plant-title{
+        font-size:2rem;
+    }
+    .info{
+        font-size: 1rem;
+    }
+    .plant-item{
+        width: 171px;
+        text-align: center;
+    }
+    .plant-item img{
+        width: 100%;
+        height: auto;
+    }
+    /* lover */
+    .plants-lover {
+        margin: 14px;
+        align-content: center;
+        align-items: center;
+    }
+    .lover-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        position: relative;
+    }
+    .trust {
+        display: none;
+    }
+    .lover-item-image{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 361px;
+        align-content: center;
+    }
+    .lover-item img {
+        width: 100%;
+    }
+    .love-title {
+        font-size: 1.5rem;
+    }
+    .lover-info ul li{
+        font-size: 14px;
+    }
+
+    /* join */
+    .bar-btn{
+        display: flex;
+    }
+    .join-title{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .sub-btn{
+        padding: 10px 28px;
+    }
+    .search-bar{
+        width:113px;
+        padding: 10px 28px;
+    
+    }
+    /* foot */
+    .foot-container{
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .foot-info{
+        font-size: 1rem;
+    }
 }
